@@ -1,0 +1,82 @@
+body {
+    background-image: url(https://images6.alphacoders.com/712/thumb-1920-712515.jpg);
+}
+
+h1 {
+    text-align: center;
+    font-size: 25px;
+    font-family: Montserrat;
+    margin: 20px 450px;
+    padding:15px;
+    background-color:aliceblue;
+}
+
+#paragrafo-1 {
+    text-align: center justify;
+    font-family: Monda;
+    font-size: 15px;
+    background-color: navajowhite;
+    margin: 0px 250px;
+    padding: 15px 100px 15px 100px;     
+}
+
+#inverso {
+    text-align: center;
+}
+
+a {
+    color: black;
+}
+
+img {
+    padding: 20px 0px 20px 0px;
+}
+
+.menu {
+    padding: 30px;
+    text-align: center;
+}
+
+.dropdown{
+    display: inline-block;
+}
+
+.dropdown button{
+    background-color: rgba(127, 255, 212, 0.816);
+}
+
+.dropdown a{
+    display: block;
+    text-decoration:none;
+    color: black;
+}
+
+.dropdown .contenuti{
+    display: none;
+    position: absolute;
+    min-width: 131px;
+    border: solid 1px;
+    text-align:center;
+    padding: 10px;
+    font-family: Montserrat;
+    font-size: small;
+}
+
+.dropdown:hover .contenuti{
+    display: block;
+    box-shadow: 3px 2px 5px rgb(68, 63, 63);
+    background-color: azure;
+}
+
+.dropdown .contenuti a:hover{
+    background-color: aquamarine;
+}
+
+
+button {
+    border: solid 1px;
+    padding: 8px 13px;
+    cursor: pointer;
+    min-width: 153px;
+    font-family: Montserrat;
+}
